@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=0, user-scalable=0">
+  <title>Index 2</title>
+  <style>
+    body,
+    button {
+      font-size: 24pt;
+    }
+  </style>
+  <script>
+    async function sendWebKitMessage(handler, message) {
+      if (
+        message != "" &&
+        handler != "" &&
+        window.webkit &&
+        window.webkit.messageHandlers &&
+        window.webkit.messageHandlers.hasOwnProperty(handler)
+      ) {
+        console.log("Going to send a message to", handler)
+        var reply = await window.webkit.messageHandlers[handler].postMessage(message);
+        return reply
+      } else {
+        throw Error("Something is missing!")
+      }
+    }
+
+    async function sendReceiveReply(handler, message, elementId) {
+      try {
+        var reply = await sendWebKitMessage(handler, message);
+
+        var sanitizedReply = reply.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+        document.getElementById(elementId).innerHTML = sanitizedReply;
+      } catch (error) {
+        document.getElementById(elementId).innerHTML = "ERROR: " + error.message;
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <div>
+    <button onclick="sendWebKitMessage('fromWebPage', 'A message from web view')">Send Message</button>
+  </div>
+  <div style="margin-top: 15px">
+    <button onclick="sendReceiveReply('getData', 'Send me some data', 'reply')">Get Data</button>
+    <div id="reply"></div>
+  </div>
+
+</body>
+
+</html>

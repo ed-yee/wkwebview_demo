@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=0, user-scalable=0">
+  <title>Index</title>
+  <style>
+    body,
+    button {
+      font-size: 24pt;
+    }
+  </style>
+  <script>
+    function callConfirm() {
+      if (confirm("This is a confirm dialog")) {
+        document.getElementById("confirmValue").innerText = "You hit ok";
+      } else {
+        document.getElementById("confirmValue").innerText = "You hit cancel";
+      }
+    }
+
+    function callPrompt() {
+      var response = prompt("This is a prompt! How are you?", "Great");
+      if (response) {
+        document.getElementById("promptResult").innerText =
+          "Your response is: " + response;
+      } else {
+        document.getElementById("promptResult").innerText = "Cancelled";
+      }
+    }
+
+    function sendWebKitMessage(handler, message) {
+      if (
+        message != "" &&
+        handler != "" &&
+        window.webkit &&
+        window.webkit.messageHandlers &&
+        window.webkit.messageHandlers.hasOwnProperty(handler)
+      ) {
+        window.webkit.messageHandlers[handler].postMessage(message);
+      }
+    }    
+  </script>
+</head>
+
+<body>
+  <button onclick="alert('This is an alert!')">Alert</button>
+
+  <div style="margin: 15px 0;">
+    <button onclick="callConfirm()">Confirm</button>
+    <div>Confirmed? <span id="confirmValue"></span></div>
+  </div>
+
+  <div style="margin: 15px 0;">
+    <button onclick="callPrompt()">Prompt</button>
+    <div><span id="promptResult"></span></div>
+  </div>
+
+  <div>
+    <button onclick="sendWebKitMessage('fromWebPage', 'A message from web page')">Send Message</button>
+  </div>
+</body>
+
+</html>
