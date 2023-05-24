@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09A8524129FFC44D00E8C722 /* Web in Resources */ = {isa = PBXBuildFile; fileRef = 09A8524029FFC44D00E8C722 /* Web */; };
+		09DF034C2A12A5F900D4C456 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF034B2A12A5F900D4C456 /* WebView.swift */; };
+		09DF034E2A12A70F00D4C456 /* InternetWebPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF034D2A12A70F00D4C456 /* InternetWebPage.swift */; };
+		09DF03502A12A75000D4C456 /* LocalWebPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF034F2A12A75000D4C456 /* LocalWebPage.swift */; };
+		09DF03522A12A79400D4C456 /* JavascriptDialogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF03512A12A79400D4C456 /* JavascriptDialogs.swift */; };
+		09DF03542A12A7DA00D4C456 /* MessageFromWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF03532A12A7DA00D4C456 /* MessageFromWebView.swift */; };
+		09DF03562A12A93500D4C456 /* MessageToWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF03552A12A93500D4C456 /* MessageToWebView.swift */; };
+		09DF03592A12B57200D4C456 /* WebViewErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF03582A12B57200D4C456 /* WebViewErrors.swift */; };
+		09DF035B2A12B5F600D4C456 /* SwiftUIWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF035A2A12B5F600D4C456 /* SwiftUIWebView.swift */; };
+		09DF035D2A12B6E200D4C456 /* JSPanelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF035C2A12B6E200D4C456 /* JSPanelType.swift */; };
+		09DF03602A12B74E00D4C456 /* BaseWebViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF035F2A12B74E00D4C456 /* BaseWebViewVM.swift */; };
+		09DF03622A12B7A600D4C456 /* LocalWebViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF03612A12B7A600D4C456 /* LocalWebViewVM.swift */; };
 		09F5EC5529FD6C3500BA04F6 /* wkwebview_demoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F5EC5429FD6C3500BA04F6 /* wkwebview_demoApp.swift */; };
 		09F5EC5729FD6C3500BA04F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F5EC5629FD6C3500BA04F6 /* ContentView.swift */; };
 		09F5EC5929FD6C3600BA04F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09F5EC5829FD6C3600BA04F6 /* Assets.xcassets */; };
@@ -14,6 +26,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09A8524029FFC44D00E8C722 /* Web */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Web; sourceTree = "<group>"; };
+		09DF034B2A12A5F900D4C456 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		09DF034D2A12A70F00D4C456 /* InternetWebPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetWebPage.swift; sourceTree = "<group>"; };
+		09DF034F2A12A75000D4C456 /* LocalWebPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalWebPage.swift; sourceTree = "<group>"; };
+		09DF03512A12A79400D4C456 /* JavascriptDialogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JavascriptDialogs.swift; sourceTree = "<group>"; };
+		09DF03532A12A7DA00D4C456 /* MessageFromWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageFromWebView.swift; sourceTree = "<group>"; };
+		09DF03552A12A93500D4C456 /* MessageToWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageToWebView.swift; sourceTree = "<group>"; };
+		09DF03582A12B57200D4C456 /* WebViewErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewErrors.swift; sourceTree = "<group>"; };
+		09DF035A2A12B5F600D4C456 /* SwiftUIWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWebView.swift; sourceTree = "<group>"; };
+		09DF035C2A12B6E200D4C456 /* JSPanelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSPanelType.swift; sourceTree = "<group>"; };
+		09DF035F2A12B74E00D4C456 /* BaseWebViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWebViewVM.swift; sourceTree = "<group>"; };
+		09DF03612A12B7A600D4C456 /* LocalWebViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalWebViewVM.swift; sourceTree = "<group>"; };
 		09F5EC5129FD6C3500BA04F6 /* wkwebview_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wkwebview_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09F5EC5429FD6C3500BA04F6 /* wkwebview_demoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wkwebview_demoApp.swift; sourceTree = "<group>"; };
 		09F5EC5629FD6C3500BA04F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,9 +56,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09DF03492A12A5B700D4C456 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				09DF034B2A12A5F900D4C456 /* WebView.swift */,
+				09DF035A2A12B5F600D4C456 /* SwiftUIWebView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		09DF034A2A12A5D000D4C456 /* Sub Views */ = {
+			isa = PBXGroup;
+			children = (
+				09DF034D2A12A70F00D4C456 /* InternetWebPage.swift */,
+				09DF034F2A12A75000D4C456 /* LocalWebPage.swift */,
+				09DF03512A12A79400D4C456 /* JavascriptDialogs.swift */,
+				09DF03532A12A7DA00D4C456 /* MessageFromWebView.swift */,
+				09DF03552A12A93500D4C456 /* MessageToWebView.swift */,
+			);
+			path = "Sub Views";
+			sourceTree = "<group>";
+		};
+		09DF03572A12B52C00D4C456 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				09DF03582A12B57200D4C456 /* WebViewErrors.swift */,
+				09DF035C2A12B6E200D4C456 /* JSPanelType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		09DF035E2A12B71C00D4C456 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				09DF035F2A12B74E00D4C456 /* BaseWebViewVM.swift */,
+				09DF03612A12B7A600D4C456 /* LocalWebViewVM.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
 		09F5EC4829FD6C3500BA04F6 = {
 			isa = PBXGroup;
 			children = (
+				09A8524029FFC44D00E8C722 /* Web */,
 				09F5EC5329FD6C3500BA04F6 /* wkwebview_demo */,
 				09F5EC5229FD6C3500BA04F6 /* Products */,
 			);
@@ -51,6 +115,10 @@
 		09F5EC5329FD6C3500BA04F6 /* wkwebview_demo */ = {
 			isa = PBXGroup;
 			children = (
+				09DF035E2A12B71C00D4C456 /* View Models */,
+				09DF03572A12B52C00D4C456 /* Enums */,
+				09DF034A2A12A5D000D4C456 /* Sub Views */,
+				09DF03492A12A5B700D4C456 /* Components */,
 				09F5EC5429FD6C3500BA04F6 /* wkwebview_demoApp.swift */,
 				09F5EC5629FD6C3500BA04F6 /* ContentView.swift */,
 				09F5EC5829FD6C3600BA04F6 /* Assets.xcassets */,
@@ -125,6 +193,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09A8524129FFC44D00E8C722 /* Web in Resources */,
 				09F5EC5C29FD6C3600BA04F6 /* Preview Assets.xcassets in Resources */,
 				09F5EC5929FD6C3600BA04F6 /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +206,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09DF03542A12A7DA00D4C456 /* MessageFromWebView.swift in Sources */,
+				09DF03522A12A79400D4C456 /* JavascriptDialogs.swift in Sources */,
+				09DF03562A12A93500D4C456 /* MessageToWebView.swift in Sources */,
+				09DF035B2A12B5F600D4C456 /* SwiftUIWebView.swift in Sources */,
+				09DF03592A12B57200D4C456 /* WebViewErrors.swift in Sources */,
+				09DF03602A12B74E00D4C456 /* BaseWebViewVM.swift in Sources */,
+				09DF03502A12A75000D4C456 /* LocalWebPage.swift in Sources */,
+				09DF034E2A12A70F00D4C456 /* InternetWebPage.swift in Sources */,
+				09DF034C2A12A5F900D4C456 /* WebView.swift in Sources */,
 				09F5EC5729FD6C3500BA04F6 /* ContentView.swift in Sources */,
+				09DF03622A12B7A600D4C456 /* LocalWebViewVM.swift in Sources */,
+				09DF035D2A12B6E200D4C456 /* JSPanelType.swift in Sources */,
 				09F5EC5529FD6C3500BA04F6 /* wkwebview_demoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,12 +344,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"wkwebview_demo/Preview Content\"";
 				DEVELOPMENT_TEAM = 97CR7ZJSU6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_PROFILING_CODE = NO;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -293,12 +375,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"wkwebview_demo/Preview Content\"";
 				DEVELOPMENT_TEAM = 97CR7ZJSU6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_PROFILING_CODE = NO;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
