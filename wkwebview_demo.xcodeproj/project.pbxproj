@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		09A8524129FFC44D00E8C722 /* Web in Resources */ = {isa = PBXBuildFile; fileRef = 09A8524029FFC44D00E8C722 /* Web */; };
+		09D9C2BC2A20F0BD006C2DA4 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 09D9C2BB2A20F0BD006C2DA4 /* .gitignore */; };
 		09DF034C2A12A5F900D4C456 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF034B2A12A5F900D4C456 /* WebView.swift */; };
 		09DF034E2A12A70F00D4C456 /* InternetWebPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF034D2A12A70F00D4C456 /* InternetWebPage.swift */; };
 		09DF03502A12A75000D4C456 /* LocalWebPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF034F2A12A75000D4C456 /* LocalWebPage.swift */; };
@@ -27,6 +28,8 @@
 
 /* Begin PBXFileReference section */
 		09A8524029FFC44D00E8C722 /* Web */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Web; sourceTree = "<group>"; };
+		09D9C2BB2A20F0BD006C2DA4 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		09D9C2BD2A20F0E9006C2DA4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		09DF034B2A12A5F900D4C456 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		09DF034D2A12A70F00D4C456 /* InternetWebPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetWebPage.swift; sourceTree = "<group>"; };
 		09DF034F2A12A75000D4C456 /* LocalWebPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalWebPage.swift; sourceTree = "<group>"; };
@@ -98,6 +101,8 @@
 		09F5EC4829FD6C3500BA04F6 = {
 			isa = PBXGroup;
 			children = (
+				09D9C2BD2A20F0E9006C2DA4 /* README.md */,
+				09D9C2BB2A20F0BD006C2DA4 /* .gitignore */,
 				09A8524029FFC44D00E8C722 /* Web */,
 				09F5EC5329FD6C3500BA04F6 /* wkwebview_demo */,
 				09F5EC5229FD6C3500BA04F6 /* Products */,
@@ -193,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09D9C2BC2A20F0BD006C2DA4 /* .gitignore in Resources */,
 				09A8524129FFC44D00E8C722 /* Web in Resources */,
 				09F5EC5C29FD6C3600BA04F6 /* Preview Assets.xcassets in Resources */,
 				09F5EC5929FD6C3600BA04F6 /* Assets.xcassets in Resources */,
